@@ -1,0 +1,31 @@
+{
+  "name": "daily-protocol",
+  "description": "daily - The protocol encoder and decoder for network communcation",
+  "version": "0.2.0",
+  "author": "Andreas Madsen <amwebdk@gmail.com>",
+  "main": "./daily-protocol.js",
+  "scripts": {
+    "test": "tap test/simple/*"
+  },
+  "repository" : {
+    "type": "git",
+    "url": "git://github.com/daily/daily-protocol.git"
+  },
+  "keywords": [
+    "daily",
+    "remote",
+    "protocol",
+    "lowlevel"
+  ],
+  "dependencies": {
+    "binarypoint": "0.3.x"
+  },
+  "devDependencies": {
+    "tap": "0.4.x"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": "0.10",
+    "npm": "1"
+  }
+}
