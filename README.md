@@ -72,7 +72,8 @@ The objects below are what you pass to `.write` or get from `.read`.
 ```javascript
 {
   'type': 'write',
-  'id': Number(UInt16)
+  'id': Number(UInt16),
+  'error': new Error() || null
 }
 ```
 
