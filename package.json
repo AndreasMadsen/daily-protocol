@@ -1,7 +1,7 @@
 {
   "name": "daily-protocol",
   "description": "daily - The protocol encoder and decoder for network communcation",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "author": "Andreas Madsen <amwebdk@gmail.com>",
   "main": "./daily-protocol.js",
   "scripts": {
