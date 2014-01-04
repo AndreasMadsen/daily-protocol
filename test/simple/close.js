@@ -22,8 +22,8 @@ test('close on client', function (t) {
       t.end();
     });
 
-    client.read(0); // required in node <= 0.10
-    server.read(0);
+    client.resume();
+    server.resume();
     client.end();
   });
 });
@@ -44,8 +44,8 @@ test('close on server', function (t) {
       t.end();
     });
 
-    client.read(0); // required in node <= 0.10
-    server.read(0);
+    client.resume();
+    server.resume();
     server.end();
   });
 });
