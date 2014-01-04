@@ -1,4 +1,4 @@
-#daily-protocol
+#daily-protocol [![Build Status](https://secure.travis-ci.org/AndreasMadsen/daily-protocol.png)](http://travis-ci.org/AndreasMadsen/daily-protocol)
 
 > [daily](https://github.com/AndreasMadsen/daily) - The protocol encoder and decoder for network communcation
 
