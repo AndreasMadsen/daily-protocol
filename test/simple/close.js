@@ -18,7 +18,7 @@ test('close on client', function (t) {
       serverEnd: server.once.bind(server, 'end'),
       serverClose: server.once.bind(server, 'close')
     }, function (err) {
-      t.equal(err, null);
+      t.ifError(err);
       t.end();
     });
 
@@ -40,7 +40,7 @@ test('close on server', function (t) {
       serverEnd: server.once.bind(server, 'end'),
       serverClose: server.once.bind(server, 'close')
     }, function (err) {
-      t.equal(err, null);
+      t.ifError(err);
       t.end();
     });
 

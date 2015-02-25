@@ -43,6 +43,6 @@ Setup.prototype.pair = function (callback) {
           socket.once('connect', function () { done(null, socket); });
     }
   }, function (err, result) {
-    callback(err, result.server, result.client);
+    callback(err || null, result.server, result.client);
   });
 };
